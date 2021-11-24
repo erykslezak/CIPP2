@@ -1,0 +1,29 @@
+/* Googlefonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+/* All document */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 180vh;
+	background: linear-gradient(180deg, #9984D4, #161032);
+	background-repeat: no-repeat;
+	font-size: 62.5%;
+	font-family: Montserrat, sans-serif;
+	color: #514A9D;
+}
+
+/* Container CSS for all main DIVs */
+.container {
+	width: 45vw;
+	min-width: 300px;
+	background-color: #E8E8E8;
+	margin: 0 auto;
+	margin-top: 2%;
+	border-radius: 10px;
+	padding: 5px;
+}
