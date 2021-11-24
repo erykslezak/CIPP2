@@ -52,3 +52,12 @@ body {
     background-color: #0496FF;
     border-color: transparent;
 }
+/* End of Top Menu*/
+
+/* Start of Game Menu */
+/* Scores */
+.scores {
+	margin-top: 1%;
+	margin-bottom: 8%;
+	font-size: 1.3rem;
+}
