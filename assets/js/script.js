@@ -62,6 +62,9 @@ function startGame() {
 		case 'spockscissors':
 		case 'spockrock':
             resultDisplay.innerHTML = "Somehow you won!";
+			// Gets the user current score from the html element and updates it.
+			let userScore = parseInt(document.getElementById("user-score").innerText);
+			document.getElementById("user-score").innerText = ++userScore;
             break;
         case 'paperscissors':
 		case 'lizardscissors':
