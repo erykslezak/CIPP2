@@ -68,6 +68,7 @@ function startGame() {
 			document.getElementById("user-score").innerText = ++userScore;
 			// Checks if score is 5, if it is then displays message and plays victory sound to user.
 			if (userScore === 5) {
+				hideGameButtons();
 				document.getElementById("computer-score").innerText = 0;
 			    document.getElementById("user-score").innerText = 0;			    
 			    resultDisplay.style.fontSize = "30px";
@@ -90,6 +91,7 @@ function startGame() {
 			let computerScore = parseInt(document.getElementById("computer-score").innerText);
 			document.getElementById("computer-score").innerText = ++computerScore;
 			if (computerScore === 5) {
+				hideGameButtons();
 				document.getElementById("computer-score").innerText = 0;
 			    document.getElementById("user-score").innerText = 0;			    
 			    resultDisplay.style.fontSize = "30px";
@@ -127,4 +129,12 @@ function show (elements, specifiedDisplay) {
 	for (var index = 0; index < elements.length; index++) {
 	    elements[index].style.display = specifiedDisplay || 'block';
 	}
+}
+
+function hideGameButtons() {
+	hide(document.getElementById("rock"));
+	hide(document.getElementById("paper"));
+	hide(document.getElementById("scissors"));
+	hide(document.getElementById("lizard"));
+	hide(document.getElementById("spock"));	
 }
