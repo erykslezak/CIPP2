@@ -95,6 +95,15 @@ body {
 	text-decoration: none;
 	cursor: pointer;
 }
+
+.modal h1 {
+	font-size: 1.7rem;
+}
+
+.modal p {
+	font-size: 1.3rem;
+}
+
 /* End of Top Menu*/
 
 /* Start of Game Menu */
