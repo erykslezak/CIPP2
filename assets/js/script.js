@@ -110,3 +110,21 @@ function startGame() {
 function restartGame() {
 
 }
+
+/*
+  Functions to show and hide html elements.
+  https://stackoverflow.com/questions/21070101/show-hide-div-using-javascript
+*/
+function hide (elements) {
+	elements = elements.length ? elements : [elements];
+	for (var index = 0; index < elements.length; index++) {
+	    elements[index].style.display = 'none';
+	}
+}
+  
+function show (elements, specifiedDisplay) {
+	elements = elements.length ? elements : [elements];
+	for (var index = 0; index < elements.length; index++) {
+	    elements[index].style.display = specifiedDisplay || 'block';
+	}
+}
