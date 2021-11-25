@@ -89,3 +89,10 @@ body {
 .game button:hover {
 	font-size: 1.1rem;
 }
+
+/* Results message */
+.results {
+	margin-top: 25px;
+	text-align: center;
+	font-size: 1.5rem;
+}
