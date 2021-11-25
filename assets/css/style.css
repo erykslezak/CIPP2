@@ -85,3 +85,7 @@ body {
     margin-left: 5px;
 	margin-bottom: 5px;
 }
+
+.game button:hover {
+	font-size: 1.1rem;
+}
