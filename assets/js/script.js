@@ -38,8 +38,17 @@ let generateComputerChoice = function() {
     computerChoice = randomChoice;
 };
 
+/*
+  The main function to display the results and calculate who won the round.
+*/
 function startGame() {
-
+    generateComputerChoice();
+    // An if function to decide which message to display, being either draw or win/lose.
+	if (playerChoice === computerChoice) {
+		choiceDisplay.innerHTML = 'You chose ' + playerChoice + ' while the computer also chose ' + computerChoice + '.';
+	} else {
+		choiceDisplay.innerHTML = 'You chose ' + playerChoice + ' while the computer chose ' + computerChoice + '.';
+	}
 }
 
 function restartGame() {
