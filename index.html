@@ -16,7 +16,7 @@
     <header class="container">
         <nav>
           <span class="game-name">ROCK	<br>PAPER	<br>SCISSORS	<br></span>
-          <button type="button" class="button">Game</button>
+          <button type="button" class="button" data-href="#game-modal">Game</button>
           <button type="button" class="button">Restart</button>
           <button type="button" class="button">How to play</button>
           <button type="button" class="button">About</button>
@@ -43,6 +43,19 @@
             <p id="result"></p>
         </div>
     </div>
+    
+    <!--
+    Modal script to make pop up windows
+    https://stackoverflow.com/questions/40645032/creating-multiple-modals-on-a-single-page
+    https://www.w3schools.com/howto/howto_css_modals.asp 
+    -->
+    <!-- Start of Modals -->
+	<div id="modal-game" class="modal">
+		<!-- Game Difficulty Modal -->
+		<div class="modal-content">
+		    <span class="modal-close">&times;</span>
+		</div>
+	</div>
     <script src="assets/js/script.js"></script> 
 </body>
 </html>

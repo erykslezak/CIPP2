@@ -144,6 +144,7 @@ function hideGameButtons() {
 /*
   Modal script to make pop up windows
   https://stackoverflow.com/questions/40645032/creating-multiple-modals-on-a-single-page
+  https://www.w3schools.com/howto/howto_css_modals.asp
 */
 // Get the button that opens the modal
 var btn = document.querySelectorAll(".modal-button");
@@ -152,7 +153,7 @@ var btn = document.querySelectorAll(".modal-button");
 var modals = document.querySelectorAll('.modal');
 
 // Get the <span> element that closes the modal
-var spans = document.getElementsByClassName("close");
+var spans = document.getElementsByClassName("modal-close");
 
 // When the user clicks the button, open the modal
 for (var i = 0; i < btn.length; i++) {
