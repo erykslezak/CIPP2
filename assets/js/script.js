@@ -66,6 +66,7 @@ function startGame() {
 			// Gets the user current score from the html element and updates it.
 			let userScore = parseInt(document.getElementById("user-score").innerText);
 			document.getElementById("user-score").innerText = ++userScore;
+			// Checks if score is 5, if it is then displays message and plays victory sound to user.
 			if (userScore === 5) {
 				document.getElementById("computer-score").innerText = 0;
 			    document.getElementById("user-score").innerText = 0;			    
@@ -88,6 +89,12 @@ function startGame() {
 			// Gets the computers current score from the html element and updates it.
 			let computerScore = parseInt(document.getElementById("computer-score").innerText);
 			document.getElementById("computer-score").innerText = ++computerScore;
+			if (computerScore === 5) {
+				document.getElementById("computer-score").innerText = 0;
+			    document.getElementById("user-score").innerText = 0;			    
+			    resultDisplay.style.fontSize = "30px";
+				resultDisplay.innerHTML = "YOU LOST THE GAME!!!";
+			}
             break;
         case 'paperpaper':
 		case 'scissorsscissors':
