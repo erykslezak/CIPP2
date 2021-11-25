@@ -61,6 +61,7 @@ function startGame() {
 		case 'lizardpaper':
 		case 'spockscissors':
 		case 'spockrock':
+			resultDisplay.style.color = "green";
             resultDisplay.innerHTML = "Somehow you won!";
 			// Gets the user current score from the html element and updates it.
 			let userScore = parseInt(document.getElementById("user-score").innerText);
@@ -75,7 +76,8 @@ function startGame() {
 		case 'spocklizard':
 		case 'paperlizard':
 		case 'scissorsspock':
-		case 'rockspock':    
+		case 'rockspock':
+			resultDisplay.style.color = "red";    
             resultDisplay.innerHTML = "Ha! You lost.";
 			// Gets the computers current score from the html element and updates it.
 			let computerScore = parseInt(document.getElementById("computer-score").innerText);
@@ -86,6 +88,7 @@ function startGame() {
 		case 'rockrock':
 		case 'spockspock':
 		case 'lizardlizard':
+			resultDisplay.style.color = "blue";
 		    resultDisplay.innerHTML = "You got lucky there, it's a draw!";
 		    break;    
     }
