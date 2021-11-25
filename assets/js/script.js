@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
             playerChoice = choices[playerSelect];
             console.log('pressing game button');
             console.log(playerChoice);
-            // startGame();
+            startGame();
         } else {
             console.log('pressing menu button')
         }
@@ -49,6 +49,21 @@ function startGame() {
 	} else {
 		choiceDisplay.innerHTML = 'You chose ' + playerChoice + ' while the computer chose ' + computerChoice + '.';
 	}
+    // Switch statement to decide between user choice and computer choice.
+    switch (playerChoice + computerChoice) {
+		case 'scissorspaper':
+		case 'scissorslizard':
+		case 'rockscissors':
+		case 'rocklizard':
+		case 'paperrock':
+		case 'paperspock':
+		case 'lizardspock':
+		case 'lizardpaper':
+		case 'spockscissors':
+		case 'spockrock':
+            resultDisplay.innerHTML = "Somehow you won!";
+            break;
+    }
 }
 
 function restartGame() {
