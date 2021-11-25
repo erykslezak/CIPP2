@@ -141,6 +141,19 @@ function hideGameButtons() {
 	hide(document.getElementById("spock"));	
 }
 
+function removeHardGame() {
+	hide(document.getElementById("lizard"));
+	hide(document.getElementById("spock"));
+	show(document.getElementById("rock"));
+	show(document.getElementById("paper"));
+	show(document.getElementById("scissors"));
+	show(document.getElementsByClassName('scores'));
+	document.getElementById("computer-score").innerText = 0;
+	document.getElementById("user-score").innerText = 0;
+	choiceDisplay.innerHTML = "";
+	resultDisplay.innerHTML = "";
+}
+
 /*
   Modal script to make pop up windows
   https://stackoverflow.com/questions/40645032/creating-multiple-modals-on-a-single-page
