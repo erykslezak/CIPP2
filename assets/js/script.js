@@ -90,6 +90,7 @@ function startGame() {
 			// Gets the computers current score from the html element and updates it.
 			let computerScore = parseInt(document.getElementById("computer-score").innerText);
 			document.getElementById("computer-score").innerText = ++computerScore;
+			// Checks if score is 5, if it is then displays message and plays lost game sound to user.
 			if (computerScore === 5) {
 				hideGameButtons();
 				document.getElementById("computer-score").innerText = 0;
@@ -98,6 +99,7 @@ function startGame() {
 				resultDisplay.innerHTML = "YOU LOST THE GAME!!!";
 			}
             break;
+		// Checks for draw and displays message.
         case 'paperpaper':
 		case 'scissorsscissors':
 		case 'rockrock':
