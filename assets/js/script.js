@@ -23,7 +23,11 @@ document.addEventListener("DOMContentLoaded", function() {
             console.log('pressing game button');
             console.log(playerChoice);
             startGame();
-        } else {
+        } else if (this.getAttribute("data-difficulty") === "1") {
+			console.log('pressing easy game button');
+		} else if (this.getAttribute("data-difficulty") === "2") {
+			console.log('pressing hard game button');
+		} else {
             console.log('pressing menu button')
         }
         });
