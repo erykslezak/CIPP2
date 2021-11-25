@@ -77,6 +77,9 @@ function startGame() {
 		case 'scissorsspock':
 		case 'rockspock':    
             resultDisplay.innerHTML = "Ha! You lost.";
+			// Gets the computers current score from the html element and updates it.
+			let computerScore = parseInt(document.getElementById("computer-score").innerText);
+			document.getElementById("computer-score").innerText = ++computerScore;
             break;
         case 'paperpaper':
 		case 'scissorsscissors':
