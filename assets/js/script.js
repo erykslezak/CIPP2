@@ -75,6 +75,13 @@ function startGame() {
 		case 'rockspock':    
             resultDisplay.innerHTML = "Ha! You lost.";
             break;
+        case 'paperpaper':
+		case 'scissorsscissors':
+		case 'rockrock':
+		case 'spockspock':
+		case 'lizardlizard':
+		    resultDisplay.innerHTML = "You got lucky there, it's a draw!";
+		    break;    
     }
 }
 
