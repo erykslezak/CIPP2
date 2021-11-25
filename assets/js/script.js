@@ -30,6 +30,14 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
+/*
+  Function to generate computers choice
+*/
+let generateComputerChoice = function() {
+    let randomChoice = choices[Math.floor(Math.random() * choices.length)];
+    computerChoice = randomChoice;
+};
+
 function startGame() {
 
 }
