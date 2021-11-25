@@ -63,6 +63,18 @@ function startGame() {
 		case 'spockrock':
             resultDisplay.innerHTML = "Somehow you won!";
             break;
+        case 'paperscissors':
+		case 'lizardscissors':
+		case 'scissorsrock':
+		case 'lizardrock':
+		case 'rockpaper':
+		case 'spockpaper':
+		case 'spocklizard':
+		case 'paperlizard':
+		case 'scissorsspock':
+		case 'rockspock':    
+            resultDisplay.innerHTML = "Ha! You lost.";
+            break;
     }
 }
 
