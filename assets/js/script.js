@@ -24,6 +24,10 @@ document.addEventListener("DOMContentLoaded", function() {
             console.log('pressing game button');
             console.log(playerChoice);
             startGame();
+		/*  
+		If it is the 'Easy' difficulty button then checks for length of choices array.
+		If it's 5 then removes last 2 (lizard and spock) and sets game level to 1.
+		*/	
         } else if (this.getAttribute("data-difficulty") === "1") {
 			console.log('pressing easy game button');
 			console.log(choices.length);
@@ -34,6 +38,10 @@ document.addEventListener("DOMContentLoaded", function() {
 				gameLevel = 1;
 				console.log(choices);
 			}
+		/* 
+		If it is the 'Hard' difficulty button then checks for length of choices array.
+		If it's 3 then adds lizard and spock to choice array and sets game level to 2.
+		*/
 		} else if (this.getAttribute("data-difficulty") === "2") {
 			console.log('pressing hard game button');
 			if (choices.length === 3) {
