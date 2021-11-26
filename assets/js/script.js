@@ -43,9 +43,8 @@ document.addEventListener("DOMContentLoaded", function() {
 		*/	
         } else if (this.getAttribute("data-difficulty") === "1") {
 			console.log('pressing easy game button');
-			console.log(choices.length);
+			console.log(choices);
 			if (choices.length === 5) {
-				console.log(choices);
 				choices.splice(-2);
 				removeHardGame();
 				gameLevel = 1;
@@ -57,11 +56,11 @@ document.addEventListener("DOMContentLoaded", function() {
 		*/
 		} else if (this.getAttribute("data-difficulty") === "2") {
 			console.log('pressing hard game button');
+			addHardGame();
+			gameLevel = 2;
+			console.log(choices);
 			if (choices.length === 3) {
-				console.log(choices);
 				choices.push("lizard", "spock");
-				addHardGame();
-				gameLevel = 2;
 				console.log(choices);	
 			}
 		// Restarts the last ran game mode.
