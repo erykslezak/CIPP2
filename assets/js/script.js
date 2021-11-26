@@ -194,29 +194,15 @@ function hideGameButtons() {
 }
 
 function removeHardGame() {
+	generalGame();
 	hide(document.getElementById("lizard"));
 	hide(document.getElementById("spock"));
-	show(document.getElementById("rock"));
-	show(document.getElementById("paper"));
-	show(document.getElementById("scissors"));
-	show(document.getElementsByClassName('scores'));
-	document.getElementById("computer-score").innerText = 0;
-	document.getElementById("user-score").innerText = 0;
-	choiceDisplay.innerHTML = "";
-	resultDisplay.innerHTML = "";
 }
 
 function addHardGame() {
+	generalGame();
 	show(document.getElementById("lizard"));
 	show(document.getElementById("spock"));
-	show(document.getElementById("rock"));
-	show(document.getElementById("paper"));
-	show(document.getElementById("scissors"));
-	show(document.getElementsByClassName('scores'));
-	document.getElementById("computer-score").innerText = 0;
-	document.getElementById("user-score").innerText = 0;
-	choiceDisplay.innerHTML = "";
-	resultDisplay.innerHTML = "";
 }
 
 /*
