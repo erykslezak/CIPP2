@@ -6,6 +6,7 @@ let buttons = document.querySelectorAll("button");
 // More variables
 let playerSelect;
 let playerChoice;
+let gameLevel = 0;
 
 // Necessary basic choices array
 let choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
@@ -25,6 +26,14 @@ document.addEventListener("DOMContentLoaded", function() {
             startGame();
         } else if (this.getAttribute("data-difficulty") === "1") {
 			console.log('pressing easy game button');
+			console.log(choices.length);
+			if (choices.length == 5) {
+				console.log(choices);
+				choices.splice(-2);
+				removeHardGame();
+				gameLevel = 1;
+				console.log(choices);
+			}
 		} else if (this.getAttribute("data-difficulty") === "2") {
 			console.log('pressing hard game button');
 		} else {
