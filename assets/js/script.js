@@ -12,6 +12,18 @@ let gameLevel = 0;
 let choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
 
 /*
+On window load function to hide the game and results window and wait for user choice of game difficulty.
+*/
+window.onload = function() {
+	hide(document.getElementsByClassName('scores'));
+	hide(document.getElementById("rock"));
+	hide(document.getElementById("paper"));
+	hide(document.getElementById("scissors"));
+	hide(document.getElementById("lizard"));
+	hide(document.getElementById("spock"));
+};
+
+/*
 Listens for all the button presses.
 */
 document.addEventListener("DOMContentLoaded", function() {
