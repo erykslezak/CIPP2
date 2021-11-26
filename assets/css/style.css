@@ -148,3 +148,34 @@ body {
 	text-align: center;
 	font-size: 1.5rem;
 }
+/* End of Game Menu */
+/* Start of Guides */
+.guides {
+	width: 45vw;
+	min-width: 300px;
+	background-color: #E8E8E8;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 5%);
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.guides h1 {
+	font-size: 370%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin-bottom: 10px;
+	font-weight: 900;
+	letter-spacing: 1px;
+}
+
+.guides p {
+	font-size: 200%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	padding-bottom: 5px;
+}
+/* End of Guides */
