@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		// Restarts the last ran game mode.
 		} else if (this.getAttribute("id") === "restart-game") {
 			console.log('pressing restart button');
-			//restartGame();
+			restartGame();
 		// For any other buttons than the ones above.
 		} else {
             console.log('pressing menu button')
@@ -144,8 +144,15 @@ function startGame() {
     }
 }
 
+/*
+  Function to restart the current game.
+*/
 function restartGame() {
-
+	if(gameLevel === 1) {
+		removeHardGame();
+	} else {
+		addHardGame();
+	}
 }
 
 /*
