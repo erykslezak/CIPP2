@@ -21,6 +21,7 @@ window.onload = function() {
 	hide(document.getElementById("scissors"));
 	hide(document.getElementById("lizard"));
 	hide(document.getElementById("spock"));
+	hide(document.getElementsByClassName("guides"));
 };
 
 /*
@@ -197,18 +198,23 @@ function removeHardGame() {
 	generalGame();
 	hide(document.getElementById("lizard"));
 	hide(document.getElementById("spock"));
+	show(document.getElementsByClassName("easy-guide"));
+	hide(document.getElementsByClassName("hard-guide"));
 }
 
 function addHardGame() {
 	generalGame();
 	show(document.getElementById("lizard"));
 	show(document.getElementById("spock"));
+	hide(document.getElementsByClassName("easy-guide"));
+	show(document.getElementsByClassName("hard-guide"));
 }
 
 /*
   Function that hides and shows from html according to game difficulty.
 */
 function generalGame() {
+	show(document.getElementsByClassName("guides"));
 	hide(document.getElementById('game-type'));
 	show(document.getElementsByClassName('scores'));
 	show(document.getElementById("rock"));
