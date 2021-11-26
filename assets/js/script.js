@@ -220,6 +220,21 @@ function addHardGame() {
 }
 
 /*
+  Function that hides and shows from html according to game difficulty.
+*/
+function generalGame() {
+	hide(document.getElementById('game-type'));
+	show(document.getElementsByClassName('scores'));
+	show(document.getElementById("rock"));
+	show(document.getElementById("paper"));
+	show(document.getElementById("scissors"));
+	document.getElementById("computer-score").innerText = 0;
+	document.getElementById("user-score").innerText = 0;
+	choiceDisplay.innerHTML = "";
+	resultDisplay.innerHTML = "";
+}
+
+/*
   Modal script to make pop up windows
   https://stackoverflow.com/questions/40645032/creating-multiple-modals-on-a-single-page
   https://www.w3schools.com/howto/howto_css_modals.asp
