@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
         } else if (this.getAttribute("data-difficulty") === "1") {
 			console.log('pressing easy game button');
 			console.log(choices.length);
-			if (choices.length == 5) {
+			if (choices.length === 5) {
 				console.log(choices);
 				choices.splice(-2);
 				removeHardGame();
@@ -36,6 +36,13 @@ document.addEventListener("DOMContentLoaded", function() {
 			}
 		} else if (this.getAttribute("data-difficulty") === "2") {
 			console.log('pressing hard game button');
+			if (choices.length === 3) {
+				console.log(choices);
+				choices.push("lizard", "spock");
+				addHardGame();
+				gameLevel = 2;
+				console.log(choices);	
+			}
 		} else {
             console.log('pressing menu button')
         }
