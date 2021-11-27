@@ -168,6 +168,14 @@ function restartGame() {
 }
 
 /*
+  Function to play sound when one of the game buttons have been pressed.
+*/
+function playSound(url) {
+	let sound = new Audio(url);
+	sound.play();
+}
+
+/*
   Functions to show and hide html elements.
   https://stackoverflow.com/questions/21070101/show-hide-div-using-javascript
 */
