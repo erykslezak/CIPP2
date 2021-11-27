@@ -112,6 +112,7 @@ function startGame() {
 			// Checks if score is 5, if it is then displays message and plays victory sound to user.
 			if (userScore === 5) {
 				hideGameButtons();
+				playSound('assets/sounds/win.mp3');
 				document.getElementById("computer-score").innerText = 0;
 			    document.getElementById("user-score").innerText = 0;			    
 			    resultDisplay.style.fontSize = "30px";
@@ -136,6 +137,7 @@ function startGame() {
 			// Checks if score is 5, if it is then displays message and plays lost game sound to user.
 			if (computerScore === 5) {
 				hideGameButtons();
+				playSound('assets/sounds/lose.mp3');
 				document.getElementById("computer-score").innerText = 0;
 			    document.getElementById("user-score").innerText = 0;			    
 			    resultDisplay.style.fontSize = "30px";
