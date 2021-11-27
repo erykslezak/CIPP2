@@ -162,8 +162,10 @@ function startGame() {
 function restartGame() {
 	if(gameLevel === 1) {
 		removeHardGame();
-	} else {
+	} else if(gameLevel === 2) {
 		addHardGame();
+	} else {
+		alert('Please select difficulty first.')
 	}
 }
 
