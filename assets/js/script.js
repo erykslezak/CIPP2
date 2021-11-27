@@ -68,9 +68,7 @@ document.addEventListener("DOMContentLoaded", function() {
 			console.log('pressing restart button');
 			restartGame();
 		// For any other buttons than the ones above.
-		} else {
-            console.log('pressing menu button')
-        }
+		}
         });
     }
 });
