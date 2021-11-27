@@ -174,6 +174,9 @@ function restartGame() {
 */
 function playSound(url) {
 	let sound = new Audio(url);
+	let newVolume = document.getElementById('fader').value;
+	sound.volume = newVolume / 100;
+	console.log(newVolume);
 	sound.play();
 }
 
