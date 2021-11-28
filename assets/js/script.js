@@ -34,40 +34,32 @@ document.addEventListener("DOMContentLoaded", function() {
         if (this.getAttribute("data-type") === "selection") {
             playerSelect = this.getAttribute("data-game-choice");
             playerChoice = choices[playerSelect];
-            console.log('pressing game button');
-            console.log(playerChoice);
             startGame();
 		/*  
 		If it is the 'Easy' difficulty button then checks for length of choices array.
 		If it's 5 then removes last 2 (lizard and spock) and sets game level to 1.
 		*/	
         } else if (this.getAttribute("data-difficulty") === "1") {
-			console.log('pressing easy game button');
-			console.log(choices);
+			removeHardGame();
+			gameLevel = 1;
 			if (choices.length === 5) {
 				choices.splice(-2);
 				removeHardGame();
 				gameLevel = 1;
-				console.log(choices);
 			}
 		/* 
 		If it is the 'Hard' difficulty button then checks for length of choices array.
 		If it's 3 then adds lizard and spock to choice array and sets game level to 2.
 		*/
 		} else if (this.getAttribute("data-difficulty") === "2") {
-			console.log('pressing hard game button');
 			addHardGame();
 			gameLevel = 2;
-			console.log(choices);
 			if (choices.length === 3) {
 				choices.push("lizard", "spock");
-				console.log(choices);	
 			}
 		// Restarts the last ran game mode.
 		} else if (this.getAttribute("id") === "restart-game") {
-			console.log('pressing restart button');
 			restartGame();
-		// For any other buttons than the ones above.
 		}
         });
     }
@@ -175,7 +167,6 @@ function playSound(url) {
 	const sound = new Audio(url);
 	const newVolume = document.getElementById('fader').value;
 	sound.volume = newVolume / 100;
-	console.log(newVolume);
 	sound.play();
 }
 
