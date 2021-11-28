@@ -44,8 +44,6 @@ document.addEventListener("DOMContentLoaded", function() {
 			gameLevel = 1;
 			if (choices.length === 5) {
 				choices.splice(-2);
-				removeHardGame();
-				gameLevel = 1;
 			}
 		/* 
 		If it is the 'Hard' difficulty button then checks for length of choices array.
