@@ -187,6 +187,12 @@ body {
 /* End of Guides */
 
 /* Media Queries to make website responsive */
+/* For anything below screens with 974pxs */
+@media screen and (max-width: 974px) {
+	h3 {
+		font-size: 1.0rem;
+	}
+}
 /* For anything below screens with 650pxs */
 @media screen and (max-width: 650px) {
 	.modal-content {
