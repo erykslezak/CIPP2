@@ -147,3 +147,17 @@ Only one font has been used, that is [Montserrat](https://fonts.google.com/speci
 
 ![Easy Game Guide](features/easy-game-guide.png)
 ![Hard Game Guide](features/hard-game-guide.png)
+
+<span id="features-future"></span>
+
+### Features left to implement
+
+- Two player function on one device.
+
+  _The ability to play the game with your friend._
+
+- Online multiplayer with lobbies.
+
+  _The ability to see rooms with players wiating for a match._
+
+<div align="right"><a style="text-align:right" href="#top">Go to index :arrow_double_up:</a></div>
