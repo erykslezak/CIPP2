@@ -1,6 +1,16 @@
 /* Googlefonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
 
+/* Global Colors */
+:root {
+	--black-shadows: #D3C1C3;
+	--almond: #E2D0BE;
+	--cerulean-crayola: #00A7E1;
+	--rich-black: #00171F;
+	--whisper: #E8E8E8;
+	--sky-blue: #47D1FF;
+}
+
 /* All document */
 * {
 	margin: 0;
@@ -10,18 +20,18 @@
 
 body {
 	height: 180vh;
-	background: linear-gradient(180deg, #9984D4, #161032);
+	background: linear-gradient(180deg, var(--black-shadows), var(--almond));
 	background-repeat: no-repeat;
 	font-size: 62.5%;
 	font-family: Montserrat, sans-serif;
-	color: #514A9D;
+	color: var(--cerulean-crayola);
 }
 
 /* Container CSS for all main DIVs */
 .container {
 	width: 45vw;
 	min-width: 300px;
-	background-color: #E8E8E8;
+	background-color: var(--rich-black);
 	margin: 0 auto;
 	margin-top: 2%;
 	border-radius: 10px;
@@ -43,14 +53,14 @@ body {
     padding: 0.375rem 1rem;
     font-size: 1.5rem;
     border-radius: 1.25rem;
-    background-color: #006BA6;
+    background-color: var(--cerulean-crayola);
     border-color: transparent;
-	color: #E8E8E8;
+	color: var(--whisper);
 	display: inline-flex;
 }
 
 .button:hover {
-    background-color: #0496FF;
+    background-color: var(--sky-blue);
     border-color: transparent;
 }
 
@@ -72,10 +82,10 @@ body {
   
 /* Modal Content/Box */
 .modal-content {
-	background-color: #fefefe;
+	background-color: var(--rich-black);
 	margin: 15% auto; /* 15% from the top and centered */
 	padding: 20px;
-	border: 1px solid #888;
+	border: 1px solid var(--almond);
 	border-radius: 1.3rem;
 	width: 35%; /* Could be more or less, depending on screen size */
 	text-align: center;
@@ -84,7 +94,7 @@ body {
   
   /* The Exit Button */
 .modal-exit {
-	color: #aaa;
+	color: var(--cerulean-crayola);
 	float: right;
 	font-size: 28px;
 	font-weight: bold;
@@ -92,7 +102,7 @@ body {
   
 .modal-exit:hover,
 .modal-exit:focus {
-	color: black;
+	color: var(--sky-blue);
 	text-decoration: none;
 	cursor: pointer;
 }
@@ -134,8 +144,8 @@ body {
 }
 
 .game button {
-	background-color: #0496FF;
-	color: #E8E8E8;
+	background-color: var(--cerulean-crayola);
+	color: var(--whisper);
 	border: none;
 	font-size: 1.2rem;
 	padding: 10px;
@@ -159,7 +169,7 @@ body {
 .guides {
 	width: 45vw;
 	min-width: 300px;
-	background-color: #E8E8E8;
+	background-color: var(--rich-black);
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%, 5%);
