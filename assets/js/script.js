@@ -249,7 +249,7 @@ let btn = document.querySelectorAll(".modal-button");
 let modals = document.querySelectorAll('.modal');
 
 // Get the <span> element that closes the modal
-let spans = document.getElementsByClassName("modal-close");
+let spans = document.getElementsByClassName("modal-exit");
 
 // When the user clicks the button, open the modal
 for (let i = 0; i < btn.length; i++) {
