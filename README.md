@@ -82,3 +82,46 @@ The [Coolors](https://coolors.co/) website has been use to generate the palette.
 Only one font has been used, that is [Montserrat](https://fonts.google.com/specimen/Montserrat). It has been used across all site and it suits the color pallete well.
 
 <div align="right"><a style="text-align:right" href="#top">Go to index :arrow_double_up:</a></div>
+
+<span id="features"></span>
+
+## Features
+
+<span id="features-all"></span>
+
+### Sitewide
+
+**1. Navbar**
+
+- Navbar has 4 buttons which lets user change the game and adjust volume, restart the game, instructions on how to play and what is the game about.
+- All buttons except restart have modals to give user better experience.
+- It also has hover over color change.
+
+![Topnav](features/topnav.png)
+
+**2. Game Settings**
+
+- It features two game options. 'Easy' for playing the classic rock paper scissors and 'Hard' for playing the expansion version which adds Lizard and Spock.
+- It gives user the ability to change the volume of sounds that are being played when one of game buttons have been pressed.
+- User is able to close the modal by either pressing the 'x' button or outside of the box.
+
+![Game Settings](features/game-settings.png)
+
+**3. Restart Button**
+
+- Button to restarts the game current on going game or when the game is over.
+- Designed for only work when at least on game has been chosen.
+
+**4. How to play**
+
+- Modal button that gives user instructions on how to play and win the game.
+- User is able to close the modal by either pressing the 'x' button or outside of the box.
+
+![How to play](features/how-to-play.png)
+
+**5. About**
+
+- Brief description of where the expansion version of the game came from.
+- User is able to close the modal by either pressing the 'x' button or outside of the box.
+
+![About](features/about.png)
