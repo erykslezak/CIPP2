@@ -31,3 +31,24 @@
 - <a href="#credits">Credits</a>
 
 ---
+
+<span id="context"></span>
+
+## Context
+
+Rock Paper Scissors Lizard Spock is a game based on the Big Bang Theory (TV Show). The game lets users play either an original game or the more complicated one.
+
+<div align="right"><a style="text-align:right" href="#top">Go to index :arrow_double_up:</a></div>
+<span id="ux"></span>
+
+## UX
+
+### Overview
+
+The site is presented in a minimalist but effective way, providing all the information the user would ever need. Users can find out more about the game, instructions on how to play, game settings by using different modal buttons depending on the users needs.
+
+<span id="ux-stories"></span>
+
+### User stories
+
+For ease of reference, the means by which a user's expectations have been met are summarised in the tables below:
