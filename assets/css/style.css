@@ -114,6 +114,11 @@ body {
 	font-size: 1.3rem;
 }
 
+/* Game type */
+#game-type {
+	text-align: center;
+}
+
 /* Buttons */
 .game {
 	flex-wrap: wrap;
