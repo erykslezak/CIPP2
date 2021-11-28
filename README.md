@@ -161,3 +161,34 @@ Only one font has been used, that is [Montserrat](https://fonts.google.com/speci
   _The ability to see rooms with players wiating for a match._
 
 <div align="right"><a style="text-align:right" href="#top">Go to index :arrow_double_up:</a></div>
+
+<span id="technologies"></span>
+
+## Technologies Used
+
+### Languages
+
+- HTML
+- CSS
+- JavaScript
+
+### Project management
+
+- [GitHub](https://github.com/) - Version control and deployment
+- [GitPod](https://gitpod.io/) - IDE used to code the site
+- [Balsamiq](https://balsamiq.com/wireframes/) - Wireframe creation app
+
+### Style and theme
+
+- [Font Awesome](https://fontawesome.com/) - Icon used for menu in footer
+- [Google Fonts](https://fonts.google.com/) - PT Sans and Antic Slab fonts
+- [Coolors](https://coolors.co/) - Generate color pallette.
+
+### Online resources
+
+- [Stack Overflow](https://stackoverflow.com/)
+- [W3 Schools](https://www.w3schools.com/)
+- [Am I Responsive?](http://ami.responsivedesign.is/) - Generate responsive image.
+- [Google Images](https://www.google.com/imghp?hl=en) - All images resources.
+
+<div align="right"><a style="text-align:right" href="#top">Go to index :arrow_double_up:</a></div>
