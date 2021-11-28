@@ -79,6 +79,7 @@ body {
 	border-radius: 1.3rem;
 	width: 35%; /* Could be more or less, depending on screen size */
 	text-align: center;
+	min-width: 10%;
 }
   
   /* The Exit Button */
@@ -186,3 +187,9 @@ body {
 /* End of Guides */
 
 /* Media Queries to make website responsive */
+/* For anything below screens with 650pxs */
+@media screen and (max-width: 650px) {
+	.modal-content {
+		width: 65%
+	}
+}
