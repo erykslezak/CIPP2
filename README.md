@@ -17,8 +17,6 @@
   - <a href="#ux-theme">Theme</a>
 - <a href="#features">Features</a>
   - <a href="#features-all">Site wide</a>
-  - <a href="#features-pages">Pages</a>
-  - <a href="#features-forms">Forms</a>
   - <a href="#features-future">Still to implement</a>
 - <a href="#technologies">Technologies Used</a>
 - <a href="#testing">Testing</a>
@@ -125,3 +123,27 @@ Only one font has been used, that is [Montserrat](https://fonts.google.com/speci
 - User is able to close the modal by either pressing the 'x' button or outside of the box.
 
 ![About](features/about.png)
+
+**6. Select Difficulty**
+
+- A notice for user to select the game difficulty.
+- This message hides itself after any difficulty has been chosen.
+
+![Select Difficulty](features/select-difficulty.png)
+
+**7. Easy/Hard Game**
+
+- Both game difficulties contain the same scoring and result messages.
+- Scores have been divided into separate for user and computer.
+- There are two versions of results depending if it is win/lose or draw.
+- Easy game has 3 buttons, Rock, Paper and Scissors while the hard game has another two being Lizard and Spock.
+
+![Easy Game](features/easy-game.png)
+![Hard Game](features/hard-game.png)
+
+**8. Easy/Hard Game Guide**
+
+- A container that reminds user of what each option defeats another by text and an image.
+
+![Easy Game Guide](features/easy-game-guide.png)
+![Hard Game Guide](features/hard-game-guide.png)
