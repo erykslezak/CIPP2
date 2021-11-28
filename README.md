@@ -67,3 +67,18 @@ To be able to play the game on any device.                                      
 The wireframes were successfully converted into a live functioning website across all devices.
 
 The full suite of wireframes for **desktop**, **tablet** and **mobile** devices, plus a **sitemap**, can be accessed [here](wireframes/).
+
+### Site theme
+
+A clean, clear and simple aesthetic has been implemented.
+
+The [Coolors](https://coolors.co/) website has been use to generate the palette. There were 4 colors used mainly across the website and they are as follows:
+
+- Black Shadows #D3C1C3
+- Almond #E2D0BE
+- Cerulean Crayola #00A7E1
+- Rich Black #00171F
+
+Only one font has been used, that is [Montserrat](https://fonts.google.com/specimen/Montserrat). It has been used across all site and it suits the color pallete well.
+
+<div align="right"><a style="text-align:right" href="#top">Go to index :arrow_double_up:</a></div>
