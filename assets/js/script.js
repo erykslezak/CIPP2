@@ -77,8 +77,7 @@ document.addEventListener("DOMContentLoaded", function() {
   Function to generate computers choice
 */
 let generateComputerChoice = function() {
-    let randomChoice = choices[Math.floor(Math.random() * choices.length)];
-    computerChoice = randomChoice;
+	computerChoice = choices[Math.floor(Math.random() * choices.length)];
 };
 
 /*
@@ -113,8 +112,8 @@ function startGame() {
 			if (userScore === 5) {
 				hideGameButtons();
 				playSound('assets/sounds/win.mp3');
-				document.getElementById("computer-score").innerText = 0;
-			    document.getElementById("user-score").innerText = 0;			    
+				document.getElementById("computer-score").innerText = '0';
+			    document.getElementById("user-score").innerText = '0';
 			    resultDisplay.style.fontSize = "30px";
 				resultDisplay.innerHTML = "YOU WON THE GAME!!!";
 			}
@@ -173,8 +172,8 @@ function restartGame() {
   Function to play sound when one of the game buttons have been pressed.
 */
 function playSound(url) {
-	let sound = new Audio(url);
-	let newVolume = document.getElementById('fader').value;
+	const sound = new Audio(url);
+	const newVolume = document.getElementById('fader').value;
 	sound.volume = newVolume / 100;
 	console.log(newVolume);
 	sound.play();
@@ -186,14 +185,14 @@ function playSound(url) {
 */
 function hide (elements) {
 	elements = elements.length ? elements : [elements];
-	for (var index = 0; index < elements.length; index++) {
+	for (let index = 0; index < elements.length; index++) {
 	    elements[index].style.display = 'none';
 	}
 }
   
 function show (elements, specifiedDisplay) {
 	elements = elements.length ? elements : [elements];
-	for (var index = 0; index < elements.length; index++) {
+	for (let index = 0; index < elements.length; index++) {
 	    elements[index].style.display = specifiedDisplay || 'block';
 	}
 }
@@ -232,8 +231,8 @@ function generalGame() {
 	show(document.getElementById("rock"));
 	show(document.getElementById("paper"));
 	show(document.getElementById("scissors"));
-	document.getElementById("computer-score").innerText = 0;
-	document.getElementById("user-score").innerText = 0;
+	document.getElementById("computer-score").innerText = '0';
+	document.getElementById("user-score").innerText = '0';
 	choiceDisplay.innerHTML = "";
 	resultDisplay.innerHTML = "";
 }
@@ -244,36 +243,36 @@ function generalGame() {
   https://www.w3schools.com/howto/howto_css_modals.asp
 */
 // Get the button that opens the modal
-var btn = document.querySelectorAll(".modal-button");
+let btn = document.querySelectorAll(".modal-button");
 
 // All page modals
-var modals = document.querySelectorAll('.modal');
+let modals = document.querySelectorAll('.modal');
 
 // Get the <span> element that closes the modal
-var spans = document.getElementsByClassName("modal-close");
+let spans = document.getElementsByClassName("modal-close");
 
 // When the user clicks the button, open the modal
-for (var i = 0; i < btn.length; i++) {
+for (let i = 0; i < btn.length; i++) {
 	btn[i].onclick = function(e) {
     	e.preventDefault();
     	modal = document.querySelector(e.target.getAttribute("data-href"));
     	modal.style.display = "block";
  	}
-};
+}
 
 // When the user clicks on <span> (x), close the modal
-for (var i = 0; i < spans.length; i++) {
+for (let i = 0; i < spans.length; i++) {
 	spans[i].onclick = function() {
-    	for (var index in modals) {
+    	for (let index in modals) {
     		if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
     	}
  	}
-};
+}
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target.classList.contains('modal')) {
-     	for (var index in modals) {
+     	for (let index in modals) {
       		if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
      	}
     }
