@@ -30,11 +30,12 @@ body {
 
 /* Start of Top Menu */
 .game-name {
-	display: inline-flex;
 	font-size: 20px;
 	font-weight: 700;
-    margin-left: 10px;
 	margin-bottom: 12px;
+	word-spacing: 20px;
+	text-align: center;
+	display: block;
 }
 
 .button {
@@ -180,13 +181,3 @@ body {
 /* End of Guides */
 
 /* Media Queries to make website responsive */
-/* For anything below screens with 1414pxs */
-@media screen and (max-width: 1414px) {
-	.game-name {
-		text-align: center;
-		display: block;
-	}
-	.game-name > br {
-		display: none;
-	}
-}
