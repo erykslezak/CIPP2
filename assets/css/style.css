@@ -192,6 +192,9 @@ body {
 	h3 {
 		font-size: 1.0rem;
 	}
+	.guides p > img {
+		width: 90%;
+	}
 }
 /* For anything below screens with 650pxs */
 @media screen and (max-width: 650px) {
