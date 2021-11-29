@@ -233,3 +233,52 @@ Summary and Scores:
 
 - [CSS Lint](http://csslint.net/) - CSS lint found 6 errors and 25 warnings. - **PASS**
   - The errors are only in the root section with colors. Parsing error expecting RBRACE at every line. It is an issue with CSS Lint.
+
+<span id="testing-manual"></span>
+
+### Manual testing
+
+The following cases were carried out across all site, both desktop and mobile to ensure that the site is functioning as expected:
+**ALL PASSED**
+
+**1. Nav bar**
+
+- Check that each button except restart opens the correct modals.
+- Check if hover color change works as expected.
+
+**2. Game Settings**
+
+- Check if easy or hard button will run the correct game.
+- Check if easy or hard button will automatically close the modal after pressing the buttons.
+- Check if the volume slider will adjust the volume the sounds that each button outputs as well as the win/lose sound.
+
+**3. Restart Button**
+
+- Check that the button does not work untill at least one difficulty has been chosen.
+- Check if the last played game restarts.
+- Check if the scores gets reset to 0.
+
+**4. Modals**
+
+- Check that the modals can be closed with the 'x' button as well as outside the box.
+- Check if everything aligns correctly across different devices.
+
+**5. Scores**
+
+- Check that the score increments when player/computer wins the round.
+- Check that the scores does not increment when its draw.
+- Check if score resets to 0 when either the game ends or the restart button has been pressed.
+- Check that the game buttons disappear when game has been finished.
+
+**6. Game Buttons**
+
+- Check if when button has been pressed, the right option has been chosen.
+
+**7. Results Message**
+
+- Check that each message outputs the right color depending on the round result.
+
+**8. Guides**
+
+- Check if the right guides are being shown underneath the game container depending on difficulty.
+- Check if everything fits the container across all screen sizes.
