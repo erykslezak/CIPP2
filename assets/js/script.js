@@ -242,6 +242,9 @@ let modals = document.querySelectorAll('.modal');
 // Get the <span> element that closes the modal
 let spans = document.getElementsByClassName("modal-exit");
 
+// Get the game-close element that closes the modal
+let gameDifficulty = document.getElementsByClassName("game-close");
+
 // When the user clicks the button, open the modal
 for (let i = 0; i < btn.length; i++) {
 	btn[i].onclick = function(e) {
@@ -254,6 +257,15 @@ for (let i = 0; i < btn.length; i++) {
 // When the user clicks on <span> (x), close the modal
 for (let i = 0; i < spans.length; i++) {
 	spans[i].onclick = function() {
+    	for (let index in modals) {
+    		if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
+    	}
+ 	};
+}
+
+// When the user clicks on east or hard game button, close the modal
+for (let i = 0; i < gameDifficulty.length; i++) {
+	gameDifficulty[i].onclick = function() {
     	for (let index in modals) {
     		if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
     	}
