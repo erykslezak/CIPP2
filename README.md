@@ -298,3 +298,48 @@ Following issues emerged but has been addressed and solved
   - This has been solved by reducing the image width to 90% of original size.
 - The modals container was getting too small.
   - For anything under 650pxs the modal container gets slightly bigger.
+
+#### Browsers
+
+Tested on the following:
+
+- Chrome
+- Microsoft Edge
+- Safari
+
+#### Screen sizes
+
+Tested with Chrome DevTools using profiles for:
+
+- BlackBerry Z30
+- Galaxy Note 3
+- Galaxy Note II
+- Galaxy S3
+- Moto G4
+- Nexus 7
+- iPad Mini
+- iPhone 4
+- Galaxy S5
+- Pixel 2
+- Pixel 2 XL
+- iPhone 5 SE
+- iPhone 6/7/8
+- iPhone 6/7/8 Plus
+- iPhone X
+- iPad
+- iPad Pro
+- Surface Pro
+- Nest Hub
+- Nest Hub Max
+- Mobile S
+- Mobile M
+- Mobile L
+- Tablet
+- Laptop
+- Laptop L
+
+Real world testing on:
+
+- iPhone 13
+- iPhone XR
+- Windows
