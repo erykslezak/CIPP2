@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function() {
   Function to generate computers choice
 */
 let generateComputerChoice = function() {
-	const computerChoice = choices[Math.floor(Math.random() * choices.length)];
+	computerChoice = choices[Math.floor(Math.random() * choices.length)];
 };
 
 /*

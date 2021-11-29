@@ -282,3 +282,19 @@ The following cases were carried out across all site, both desktop and mobile to
 
 - Check if the right guides are being shown underneath the game container depending on difficulty.
 - Check if everything fits the container across all screen sizes.
+
+<span id="testing-responsive"></span>
+
+### Responsiveness
+
+The site has been designed with a mobile and tablet browsing in mind. It has been tested through all stages of development using [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools).
+Media queries have been created to make sure all information and images will be responsive.
+
+Following issues emerged but has been addressed and solved
+
+- Scores font was too big for smaller screen devices.
+  - This has been solved by reducing the font size for anything under 974pxs.
+- The guides images were too big.
+  - This has been solved by reducing the image width to 90% of original size.
+- The modals container was getting too small.
+  - For anything under 650pxs the modal container gets slightly bigger.
