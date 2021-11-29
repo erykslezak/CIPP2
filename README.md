@@ -343,3 +343,17 @@ Real world testing on:
 - iPhone 13
 - iPhone XR
 - Windows
+
+<span id="testing-unresolved"></span>
+
+#### Unresolved Issues
+
+- None.
+
+<span id="testing-bugs"></span>
+
+### Known bugs
+
+- None at present,
+
+<div align="right"><a style="text-align:right" href="#top">Go to index :arrow_double_up:</a></div>
