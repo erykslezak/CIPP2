@@ -394,5 +394,26 @@ To clone the repository on your device follow the steps below.
 - In your IDE's terminal type `git clone https://github.com/erykslezak/CIPP2.git` and press **Enter**.
 - You now have a local clone.
 
+<div align="right"><a style="text-align:right" href="#top">Go to index :arrow_double_up:</a></div>
+
+<span id="credits"></span>
+
+## Credits
+
+- [Stack Overflow](https://stackoverflow.com/) - Many issues I have googled brought me there as other coders were in similar situations.
+- [Stack OverFlow](https://stackoverflow.com/questions/40645032/creating-multiple-modals-on-a-single-page) - Where I took the code from to create modals. It has been modified. Also been mentioned inside html,css and js files.
+- [Stack OverFlow](https://stackoverflow.com/questions/21070101/show-hide-div-using-javascript) - Very handy function on hiding/showing divs. Also been mentioned inside js file.
+- [BigBangTheory Fandom](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock) - 
+- [W3 Schools](https://www.w3schools.com/) - Best resource when it comes to attributes etc. Used it many times and without it I would be more confused.
+- [Github](https://github.com/Edb83) - README Layout
+- [Mentor]() - I wanna thank my mentor Spencer for all his input regarding my code and being my second pair of eyes.
+- [Google](https://www.google.com/) - Ammm yes.
+
+## Content
+
+- [BigBangTheory Fandom](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock) - Used for the **About** modal.
+- The sounds were taking from the two following websites.
+  - [Barbneal](https://www.barbneal.com/the-collection/star-trek-the-original-series/spock/)
+  - [Zapsplat](https://www.zapsplat.com/)
 
 <div align="right"><a style="text-align:right" href="#top">Go to index :arrow_double_up:</a></div>
