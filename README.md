@@ -357,3 +357,42 @@ Real world testing on:
 - None at present,
 
 <div align="right"><a style="text-align:right" href="#top">Go to index :arrow_double_up:</a></div>
+
+<span id="deployment"></span>
+
+## Deployment
+
+There is just one branch of this project and the deployed version of this site is the most current version in the repository.
+
+### How to deploy
+
+### GitHub Pages
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/erykslezak/CIPP1) the following steps were taken:
+
+- Log into GitHub and locate the repository.
+- At the top find and press the **settings** option
+- On the left side you will see multiple options. Find the option called **Pages** and click on it.
+- Under **Source** select the branch **main**, make sure that **root** has also been selected and then press **Save**.
+- The site is now published. It may take a while for it to be available though.
+- The site URL is just above the **Source** section visible over green background.
+
+### Forking the GitHub Repository
+To make a clone, or Fork this repository follow the steps below.
+
+- Log into your GitHub account and find the relevant repository you want to fork.
+- Click on **Fork** on the top right of the page.
+- You will find the exact live copy of the repository in your own Github account.
+
+### Making a Local Clone
+To clone the repository on your device follow the steps below.
+
+- Log into your GitHub account and find the relevant repository you would like to clone.
+- Click the **Code** button next to **Add file** above the main branch.
+- To clone the repository using HTTPS, under **clone with HTTPS**, copy the link.
+- Open the terminal in your IDE.
+- Access the directory where you want the clone to be.
+- In your IDE's terminal type `git clone https://github.com/erykslezak/CIPP2.git` and press **Enter**.
+- You now have a local clone.
+
+
+<div align="right"><a style="text-align:right" href="#top">Go to index :arrow_double_up:</a></div>
