@@ -6,6 +6,8 @@ let buttons = document.querySelectorAll("button");
 // More variables
 let playerSelect;
 let playerChoice;
+let computerChoice;
+let modal;
 let gameLevel = 0;
 
 // Necessary basic choices array
@@ -67,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function() {
   Function to generate computers choice
 */
 let generateComputerChoice = function() {
-	computerChoice = choices[Math.floor(Math.random() * choices.length)];
+	const computerChoice = choices[Math.floor(Math.random() * choices.length)];
 };
 
 /*
@@ -154,7 +156,7 @@ function restartGame() {
 	} else if(gameLevel === 2) {
 		addHardGame();
 	} else {
-		alert('Please select difficulty first.')
+		alert('Please select difficulty first.');
 	}
 }
 
@@ -246,7 +248,7 @@ for (let i = 0; i < btn.length; i++) {
     	e.preventDefault();
     	modal = document.querySelector(e.target.getAttribute("data-href"));
     	modal.style.display = "block";
- 	}
+ 	};
 }
 
 // When the user clicks on <span> (x), close the modal
@@ -255,7 +257,7 @@ for (let i = 0; i < spans.length; i++) {
     	for (let index in modals) {
     		if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
     	}
- 	}
+ 	};
 }
 
 // When the user clicks anywhere outside of the modal, close it

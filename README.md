@@ -192,3 +192,44 @@ Only one font has been used, that is [Montserrat](https://fonts.google.com/speci
 - [Google Images](https://www.google.com/imghp?hl=en) - All images resources.
 
 <div align="right"><a style="text-align:right" href="#top">Go to index :arrow_double_up:</a></div>
+
+<span id="testing"></span>
+
+## Testing
+
+<span id="testing-auto"></span>
+
+### Automated testing
+
+- [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - Ran an audit using lighthouse on all possible options for both desktop and mobile.
+
+Summary and Scores:
+
+- All reports have accessibility scores lowered due to `Background and foreground colors do not have a sufficient contrast ratio.`. This goes towards the nav buttons.
+- Getting `Eliminate render-blocking resources.` which slows down the page tiny bit.
+
+</details>
+
+<br>
+
+<details>
+
+### Main Page Desktop:
+![Main-Page-Desktop](audit/main-desktop.png "Main page desktop score")
+### Main Page Mobile:
+![Main-Page-Mobile](audit/main-mobile.png "Main page mobile score")
+
+<summary>Audit Scores</summary>
+
+</details>
+
+<br>
+
+- [W3C - HTML](https://validator.w3.org/) - No errors or warnings detected - **PASS**
+
+- [W3C - CSS](https://jigsaw.w3.org/css-validator/) - No errors or warnings detected - **PASS**
+
+- [JShint - JavaScript](https://jshint.com/) - 26 warnings regarding `let`, `const` or `moz` and that functions can be confusing
+
+- [CSS Lint](http://csslint.net/) - CSS lint found 6 errors and 25 warnings. - **PASS**
+  - The errors are only in the root section with colors. Parsing error expecting RBRACE at every line. It is an issue with CSS Lint.
