@@ -72,10 +72,7 @@ A clean, clear and simple aesthetic has been implemented.
 
 The [Coolors](https://coolors.co/) website has been use to generate the palette. There were 4 colors used mainly across the website and they are as follows:
 
-- Black Shadows #D3C1C3
-- Almond #E2D0BE
-- Cerulean Crayola #00A7E1
-- Rich Black #00171F
+![Coolors Palette](coolors.png)
 
 Only one font has been used, that is [Montserrat](https://fonts.google.com/specimen/Montserrat). It has been used across all site and it suits the color pallete well.
 
