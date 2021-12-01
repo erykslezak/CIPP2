@@ -206,6 +206,12 @@ body {
 		width: 90%;
 	}
 }
+/* For anything below screens with 708pxs */
+@media screen and (max-width: 708px) {
+	.game button:hover {
+		font-size: 1.2rem;
+	}
+}
 /* For anything below screens with 650pxs */
 @media screen and (max-width: 650px) {
 	.modal-content {
