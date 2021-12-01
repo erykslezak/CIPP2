@@ -21,6 +21,7 @@
 - <a href="#technologies">Technologies Used</a>
 - <a href="#testing">Testing</a>
   - <a href="#testing-auto">Automated</a>
+  - <a href="#testing-user-stories">User stories</a>
   - <a href="#testing-manual">Manual</a>
   - <a href="#testing-responsive">Responsiveness</a>
   - <a href="#testing-unresolved">Unresolved issues</a>
@@ -43,7 +44,7 @@ Rock Paper Scissors Lizard Spock is a game based on the Big Bang Theory (TV Show
 
 ### Overview
 
-The site is presented in a minimalist but effective way, providing all the information the user would ever need. Users can find out more about the game, instructions on how to play, game settings by using different modal buttons depending on the users needs.
+The site is presented in a minimalist but effective way, providing all the information the user would ever need. Users can find out more about the game, instructions on how to play, game settings by using different modal buttons depending on the users needs. The site was designed desktop first.
 
 <span id="ux-stories"></span>
 
@@ -230,6 +231,27 @@ Summary and Scores:
 
 - [CSS Lint](http://csslint.net/) - CSS lint found 6 errors and 25 warnings. - **PASS**
   - The errors are only in the root section with colors. Parsing error expecting RBRACE at every line. It is an issue with CSS Lint.
+
+<span id="testing-user-stories"></span>
+
+### User Stories Testing
+
+**To be able to play classic as well as expansion game which is the 'lizard and spock'.**
+
+To test the first user story I have opened the page and pressed the `game` button. When the modal showed up I have tested both 'Easy' and 'Hard' modes to see if everything loads as expected. Tested if all the game buttons output the correct choice.
+
+**To be able to see my score.**
+
+To test this user story I played both 'Easy' and 'Hard' games. Each press of the game button depending on win, lose or draw should adjust the score. I have checked if all scores are being adjusted accordingly.
+
+**A clean, consistent interface which will not confuse users.**
+
+I have decided to use [Coolors](https://coolors.co/) for the theme colors. All buttons were designed to be easy and readable.
+
+**To be able to play the game on any device.**
+
+This user story was tested by me on desktop and phone device. I have tested other devices by using Chrome DevTools.
+I have made media queries to make sure all devices could be bug free.
 
 <span id="testing-manual"></span>
 
