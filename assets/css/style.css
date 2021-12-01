@@ -23,33 +23,33 @@ body {
 	height: 180vh;
 	background: linear-gradient(180deg, var(--black-shadows), var(--almond));
 	background-repeat: no-repeat;
-	font-size: 62.5%;
+	font-size: 0.625rem;
 	color: var(--cerulean-crayola);
 }
 
 /* Container CSS for all main DIVs */
 .container {
 	width: 45vw;
-	min-width: 300px;
+	min-width: 18.75rem;
 	background-color: var(--rich-black);
 	margin: 0 auto;
 	margin-top: 2%;
-	border-radius: 10px;
-	padding: 5px;
+	border-radius: 0.625rem;
+	padding: 0.3125rem;
 }
 
 /* Start of Top Menu */
 .game-name {
-	font-size: 20px;
+	font-size: 1.25rem;
 	font-weight: 700;
-	margin-bottom: 12px;
-	word-spacing: 20px;
+	margin-bottom: 0.75rem;
+	word-spacing: 1.25rem;
 	text-align: center;
 	display: block;
 }
 
 .button {
-    margin: 5px;
+    margin: 0.3125rem;
     padding: 0.375rem 1rem;
     font-size: 1.5rem;
     border-radius: 1.25rem;
@@ -96,7 +96,7 @@ body {
 .modal-exit {
 	color: var(--cerulean-crayola);
 	float: right;
-	font-size: 28px;
+	font-size: 1.75rem;
 	font-weight: bold;
 }
   
@@ -148,10 +148,10 @@ body {
 	color: var(--whisper);
 	border: none;
 	font-size: 1.2rem;
-	padding: 10px;
-	border-radius: 25px;
-    margin-left: 5px;
-	margin-bottom: 5px;
+	padding: 0.625rem;
+	border-radius: 1.5625rem;
+    margin-left: 0.3125rem;
+	margin-bottom: 0.3125rem;
 }
 
 .game button:hover {
@@ -160,7 +160,7 @@ body {
 
 /* Results message */
 .results {
-	margin-top: 25px;
+	margin-top: 1.5625rem;
 	text-align: center;
 	font-size: 1.5rem;
 }
@@ -168,31 +168,31 @@ body {
 /* Start of Guides */
 .guides {
 	width: 45vw;
-	min-width: 300px;
+	min-width: 18.75rem;
 	background-color: var(--rich-black);
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%, 5%);
-	border-radius: 10px;
-	margin-bottom: 10px;
+	border-radius: 0.625rem;
+	margin-bottom: 0.625rem;
 }
 
 .guides h1 {
-	font-size: 370%;
+	font-size: 2.3rem;
 	display: flex;
 	text-align: center;
 	justify-content: center;
-	margin-bottom: 10px;
+	margin-bottom: 0.625rem;
 	font-weight: 900;
 	letter-spacing: 1px;
 }
 
 .guides p {
-	font-size: 200%;
+	font-size: 1.25rem;
 	display: flex;
 	text-align: center;
 	justify-content: center;
-	padding-bottom: 5px;
+	padding-bottom: 0.3125rem;
 }
 /* End of Guides */
 
