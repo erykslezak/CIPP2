@@ -403,7 +403,6 @@ To clone the repository on your device follow the steps below.
 - [Stack Overflow](https://stackoverflow.com/) - Many issues I have googled brought me there as other coders were in similar situations.
 - [Stack OverFlow](https://stackoverflow.com/questions/40645032/creating-multiple-modals-on-a-single-page) - Where I took the code from to create modals. It has been modified. Also been mentioned inside html,css and js files.
 - [Stack OverFlow](https://stackoverflow.com/questions/21070101/show-hide-div-using-javascript) - Very handy function on hiding/showing divs. Also been mentioned inside js file.
-- [BigBangTheory Fandom](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock) - 
 - [W3 Schools](https://www.w3schools.com/) - Best resource when it comes to attributes etc. Used it many times and without it I would be more confused.
 - [Github](https://github.com/Edb83) - README Layout
 - [Mentor]() - I wanna thank my mentor Spencer for all his input regarding my code and being my second pair of eyes.
