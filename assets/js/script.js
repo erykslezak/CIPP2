@@ -141,7 +141,7 @@ function startGame() {
 		case 'rockrock':
 		case 'spockspock':
 		case 'lizardlizard':
-			resultDisplay.style.color = "blue";
+			resultDisplay.style.color = "yellow";
 		    resultDisplay.innerHTML = "You got lucky there, it's a draw!";
 		    break;    
     }
